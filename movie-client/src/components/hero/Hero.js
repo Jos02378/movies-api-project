@@ -21,7 +21,7 @@ const Hero = ({ movies }) => {
         {movies &&
           movies.map((movie) => {
             return (
-              <Paper key={movie.id.imdbId}>
+              <Paper key={movie.imdbId}>
                 <div className={styles['card-container']}>
                   <div
                     className={styles.card}
